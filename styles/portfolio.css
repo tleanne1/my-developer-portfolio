@@ -37,6 +37,10 @@ h2 {
   font-size: 56px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -99,4 +103,27 @@ h2 {
     padding: 0;
     text-align: center;
   }
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  justify-content: space-between;
+  margin: 100px;
+  padding: 40px 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-branding-contact {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: #222831;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.social-icons {
+  width: 80px;
+  padding: 20px;
 }
