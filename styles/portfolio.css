@@ -83,28 +83,6 @@ h4 {
   padding: 0px 60px;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 42px;
-    line-height: 2;
-  }
-
-  h2 {
-    font-size: 42px;
-  }
-
-  .hero {
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 80px 20px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-}
-
 .contact-box {
   background: var(--secondary-color);
   justify-content: space-between;
@@ -134,4 +112,26 @@ h4 {
 
 .toolbox-icons {
   width: 100px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 42px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
