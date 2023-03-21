@@ -127,3 +127,11 @@ h4 {
   width: 80px;
   padding: 20px;
 }
+
+.toolbox {
+  text-align: center;
+}
+
+.toolbox-icons {
+  width: 100px;
+}
