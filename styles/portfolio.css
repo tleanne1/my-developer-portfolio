@@ -1,20 +1,61 @@
-/*font-family: 'Antonio', sans-serif;
-font-family: 'Poppins', sans-serif;*/
-
-body {
-  background: linear-gradient(
+:root {
+  --branding-color: #ffb5b5;
+  --secondary-color: linear-gradient(
     109.6deg,
     rgb(255, 221, 225) 11.2%,
     rgb(255, 255, 255) 92.2%
   );
+  --heading-font-family: "Antonio", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  font-family: "Antonio", sans-serif;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: 700;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  margin: 0;
+  color: #222831;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: 300;
+  line-height: 2;
+  font-size: 24px;
+  color: #222831;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: #222831;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
