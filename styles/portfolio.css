@@ -147,6 +147,11 @@ h4 {
   color: var(--branding-color);
 }
 
+.contact-icons {
+  width: 100px;
+  padding: 20px;
+}
+
 img:hover {
   transform: scale(1.2);
   transition: all 150 ease-in-out;
