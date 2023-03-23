@@ -152,9 +152,44 @@ h4 {
   padding: 20px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+.nav-container {
+  margin: 10px;
+}
+
 img:hover {
   transform: scale(1.2);
   transition: all 150 ease-in-out;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222831;
+  transition: all 100 ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -182,15 +217,19 @@ img:hover {
     padding: 0;
   }
 
-  .btn-branding {
-    display: none;
-  }
-
   .btn-branding-projects {
     background: none;
     text-decoration: underline;
     font-size: 12px;
     line-height: 15px;
     padding: 10px 20px;
+  }
+
+  nav li {
+    margin-left: 8px;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 }
